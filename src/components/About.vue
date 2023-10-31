@@ -17,7 +17,6 @@
                     good communication between team
                     members</span>
                 <br>
-                <button>Download CV</button>
             </div>
         </div>
         <img src="../assets/me.jpg" alt="img" class="img-about">
