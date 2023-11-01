@@ -166,8 +166,8 @@ const dataProject = [
         ]
     },
     {
-        title: 'E-Commerce',
-        name: 'nizarpedia',
+        name: 'E-Commerce',
+        title: 'nizarpedia',
         img: img7,
         as_a: 'Fullstack',
         feature: [
