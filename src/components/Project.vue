@@ -16,24 +16,26 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-body p-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background-color: #ffc400cc;">
                     <div class="row">
-                        <div class="col-md modal-left py-5">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            <small style="color: #003049;" class="fw-bolder">as a {{ dataDetail.as_a }}</small>
-                            <h4 style="color: #003049;">{{ dataDetail.title }}</h4>
+                        <div class="col-md modal-left px-5"  style="color: #003049;">
+                            <small class="fw-bolder">as a {{ dataDetail.as_a }}</small>
+                            <h4 >{{ dataDetail.title }}</h4>
                             <strong>{{ dataDetail.name }}</strong> <br>
                             <span>Features : </span>
-                            <ul v-for="(data, i) in dataDetail.feature" :key="i">
-                                <li>{{ data }}</li>
+                            <ul >
+                                <li v-for="(data, i) in dataDetail.feature" :key="i">{{ data }}</li>
                             </ul>
                             <small v-if="dataDetail.link">click <a :href="dataDetail.link" target="_blank"><i> here</i></a>
                                 to visit page</small> <br>
                             <small class="pt-2 mx-1 badge bg-light text-dark" v-for="(data, index) in dataDetail.tech_used"
                                 :key="index">{{ data }} </small>
                         </div>
-                        <div class="col-md p-0">
-                            <img :src="dataDetail.img" alt="" class="w-100 h-100">
+                        <div class="col-md p-5">
+                            <img :src="dataDetail.img" alt="" class="w-100  shadow">
                         </div>
                     </div>
                 </div>
@@ -202,21 +204,10 @@ const handleDetail = (data) => {
     transform: scale(1.05);
 }
 
-.modal-left {
-    background-color: #ffc300;
-    position: relative;
-}
 
 .modal-left h4 {
     font-size: 30px;
     font-weight: bold;
-}
-
-.modal-left button {
-    position: absolute;
-    top: -30px;
-    left: 0;
-    background-color: red;
 }
 
 @media (max-width: 900px) {

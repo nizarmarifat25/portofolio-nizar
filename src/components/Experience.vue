@@ -12,9 +12,7 @@
                         <small>PT Trasnformasi Data Indonesia</small>
                         <small>
                             <ul>
-                                <li>Develop website using React Js framework</li>
-                                <li>Design and implement solutions for user needs (web)</li>
-                                <li>Collaborate with Backend Team for API integration</li>
+                                <li>Develop website using Bootstrap framework</li>
                             </ul>
                         </small>
                     </div>
@@ -31,7 +29,9 @@
                         <small>PT Trasnformasi Data Indonesia</small>
                         <small>
                             <ul>
-                                <li>Develop website using Bootstrap framework</li>
+                                <li>Develop website using React Js framework</li>
+                                <li>Design and implement solutions for user needs (web)</li>
+                                <li>Collaborate with Backend Team for API integration</li>
                             </ul>
                         </small>
                     </div>
