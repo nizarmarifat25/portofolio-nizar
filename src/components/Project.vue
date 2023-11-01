@@ -156,7 +156,6 @@ const dataProject = [
             'Authentication with captcha',
             'Control Monitoring Customer with multiple filter',
             'Dinamic menu with Role Login',
-            'monitor work orders, revenue with filter date',
             'Import and Export Data Excel',
             'Responsive',
         ],
