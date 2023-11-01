@@ -120,9 +120,8 @@ const dataProject = [
             'Responsive',
         ],
         tech_used: [
-            'HTML',
-            'CSS',
-            'JavaScript',
+            'ReactJS',
+            'Bootstrap',
         ]
     },
     {
